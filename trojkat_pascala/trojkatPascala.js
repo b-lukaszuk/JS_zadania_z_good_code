@@ -66,7 +66,7 @@ function printPoziom(poziom, n_poziomu, n_poziomow) {
         nSpacji = Math.floor((n_poziomow - n_poziomu) / 2);
     }
     let spacje = " ".repeat(nSpacji);
-    return spacje +  + poziom.toString() + spacje;
+    return spacje + poziom.toString() + spacje;
 }
 
 /** 
